@@ -15,12 +15,11 @@
     <nav class="navbar fixed-top navbar-expand-lg navbar-light">
         <a class="navbar-brand" href="index.html">Allison Krupp</a>
         <div class="navbar-right">
-                <a class="nav-item nav-link" href="./images/2019 Resume.pdf">Resume</a>
-                <a class="nav-item nav-link" href="https://linkedin.com/in/allisonkrupp/">LinkedIn</a>
-            </div>
-         <div class="collapse fixed-top navbar-collapse" id="navbarNavAltMarkup">
-            <div class="navbar-nav">
-            </div>
+            <a class="nav-item nav-link" href="./images/2019 Resume.pdf">Resume</a>
+            <a class="nav-item nav-link" href="https://linkedin.com/in/allisonkrupp/">LinkedIn</a>
+        </div>
+        <div class="collapse fixed-top navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav"></div>
         </div>
     </nav>
     <div class="bigText">
@@ -114,7 +113,7 @@
         </div>
         <div class="list">
             <ul style="list-style-type:none;">
-                <li>Communication</li>
+                <li>Abobe Creative Suite</li>
                 <li>Empathy</li>
                 <li>Organization</li>
                 <li>User Research</li>
@@ -137,30 +136,34 @@
     </div>
 </section>
 
-<section class="secondblock">
+<section class="secondBlock">
     <div class="contactForm">
     <h1 class="contact">Contact</h1>
+    <div class="fullForm">
     <form action="/action_page.php">
-        <div class="nameEmail">
-            <div class="topField">
+        <div class="topFields">
+            <div class="fullName">
                 Full Name*<br>
                 <input type="text" name="firstname" class="fields">
             </div>
-            <br><br>
-            <div class="topField email">
+            <div class="email">
             Email*<br>
             <input type="text" name="lastname" class="fields">
             </div>
         </div>
-        <br>
-        Subject*<br>
-        <input type="text" name="subject" class="subjectField">
-        <br><br>
-        Message*<br>
-        <textarea name="message" class="message"></textarea>
-        <br><br>
-        <input type="submit" value="Send Message" class="submit">
-        </form> 
+        <div class="bottomFields">
+            <div class="subjectName">
+                Subject*<br>
+                <input type="text" name="subject" class="fields2 subject2">
+            </div>
+            <div class="messageName">
+            Message*<br>
+            <textarea name="message" class="fields2 message2"></textarea>
+            </div>
+            <input type="submit" value="Send Message" class="submit">
+        </div>
+    </form> 
+    </div>
     </div>
 </section>
 
