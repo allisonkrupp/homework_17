@@ -10,7 +10,6 @@ body {
   background-image: url("../images/Allison-Krupp-Graphic-Designer.jpg");
   background-size: cover;
   background-repeat: no-repeat;
-
 }
 nav {
     width: 100%;
@@ -94,8 +93,8 @@ h4 {
   color: white;
 }
 .allContainers {
-  margin-left: 250px;
-  padding-top: 75px;
+  margin-left: 200px;
+  padding-top: 85px;
 }
 .firstContainer {
   display: flex;
@@ -107,7 +106,6 @@ h4 {
 .container {
 }
 .list {
-  margin-left: -40px;
 }
 
 
@@ -144,7 +142,7 @@ h4 {
     margin-bottom: 100px;
     width: 300px;
     height: 60px;
-    background: black;
+    background-image: linear-gradient(to bottom right, rgb(1, 1, 109), rgb(165, 1, 165));
     color: white;
     padding: 18px;
     text-transform: uppercase;
@@ -152,14 +150,14 @@ h4 {
 }
 .btn:hover {
   color: white;
-    background-color: rgb(49, 49, 49);
+  background-image: linear-gradient(to bottom right, rgb(0, 0, 70), rgb(100, 0, 100));
 }
 .downloadCopy {
     padding-bottom: 75px;
 }
 .aboutMe {
   margin: 150px auto;
-  width: 800px;
+  width: 850px;
 }
 
 /* Case Studies */
