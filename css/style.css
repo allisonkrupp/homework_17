@@ -21,28 +21,21 @@ nav {
     width: 100%;
     margin-left:50px;
     margin-right: 50px;
-    padding-top: 30px;
-}
-.navbar-left {
-    width: 400px;
-    display: flex;
-    margin-right: auto;
+    padding-top: 37px;
 }
 .navbar-right {
+    display: flex;
     margin-left: auto;
     text-align: right;
     width: 200px;
-}
-.navbar-toggler {
-    margin-left: auto;
-    border: none;
 }
 button {
     background-color: black;
 
 }
 .navbar-brand {
-    margin: auto;
+    margin-left: 50px;
+    margin-right: auto;
     font-size: 25px;
     z-index: 10000;
     font-weight: 900;
@@ -106,14 +99,6 @@ h4 {
   margin-top: 50px;
 }
 
-  .thirdBlock {
-    background-image: linear-gradient(to bottom right, rgb(1, 1, 109), rgb(165, 1, 165));
-    background-position: top;
-    width: 100vw;
-    height: 600px;
-    margin: auto;
-    color: white;
-}
   .downloadResume {
     width: 100%;
     height: 100%;
@@ -154,9 +139,6 @@ form {
   padding-left: 250px;
   padding-top: 80px;
 }
-.contact {
-  padding-top: 80px;
-}
 .fields {
   margin-top: 10px;
   width: 300px;
@@ -181,6 +163,12 @@ form {
   border-radius: 3px;
   border-color: transparent;
 }
+.subjectField {
+  margin-top: 10px;
+  width: 630px;
+  height: 40px;
+  border-radius: 3px;
+}
 .submit:hover {
   background-color: rgb(20, 20, 20);
 }
@@ -190,12 +178,6 @@ form {
 .topField {
   display: block;
   margin-right: 30px;
-}
-.subjectField {
-  margin-top: 10px;
-  width: 630px;
-  height: 40px;
-  border-radius: 3px;
 }
 /* Case Studies */
 h2 {
@@ -272,85 +254,135 @@ h2 {
 
 
   @media only screen and (max-width:950px) {
-      body {
-        max-width: 100vw;
-      }
+    body {
+      width: 100%;
+    }
     .navbar-brand {
-        margin-left: 0px;
-        font-size: 25px;
-        font-weight: 900;
+        margin-left: 20px;
     }
-    .copy {
-        min-width: 350px;
+    .nav-item {
+      display: flex;
     }
-    h1 {
-        font-size: 35px;
+    .bigText {
+      padding-left: 10px;
+      padding-top: 300px;
+      min-width: 450px;
+    }
+    .caseStudies {
+      margin-top: 100px;
+    }
+    #categoryGrid {
+      margin: 50px 5%;
+      grid-gap: 50px;
+      display: grid;
+      grid-template-rows: 300px;
+      grid-template-columns: 1fr;
+      grid-template-areas: 
+      "one"
+      "two"
+      ;
+    }
+    .heading {
+      height: 300px;
+      width: 100%;
+      margin: auto;
+      color: transparent;
+      text-align: center;
+      font-size: 25px;
+    }
+    .heading:hover {
+      background-image: linear-gradient(to bottom right, rgba(1, 1, 109, .8), rgba(165, 1, 165, .8));
+      color: white;
+      padding-top: 130px;
+      font-size: 25px;
+    }
+    .aboutMe {
+      margin: 100px auto;
+      width: 400px;
+      font-size: 25px;
     }
     .firstBlock {
-        height: 750px;
-        width: 100%;
-        margin: 0px;
+      background-image: linear-gradient(to bottom right, #01016d, rgb(165, 1, 165));
+      background-position: top;
+      width: 100%;
+      height: 1200px;
+      color: white;
     }
-    .thirdBlock {
-        height: 400px;
-        width: 100%;
-        margin: 0px;
+    .allContainers {
+      margin-left: 50px;
+      padding-top: 60px;
     }
     .container {
-        padding-right: auto;
-        display: block;
+      padding-bottom: 30px;
     }
-    .list {
-        margin-top: 25px;
-        display: block;
-        min-width: 250px;
+    .firstContainer {
+      display: block;
     }
-    .experience {
-        padding-top: 100px;
-        padding-bottom: 50px;
+    .secondContainer {
+      display: block;
+      margin-top: 0px;
     }
-    .education {
-        padding-bottom: 100px;
+    .contactForm {
+      margin-top: 100px;
+      background-image: linear-gradient(to bottom right, rgb(1, 1, 109), rgb(165, 1, 165));
+      background-position: top;
+      width: 100%;
+      height: 750px;
+      color: white;
     }
-    .skills {
-        padding-top: 100px;
-        padding-bottom: 50px;
+    .contact {
+      padding-top: 50px;
     }
-    .secondBlock .leftList {
-        margin-bottom: -15px;
+    form {
+      padding-left: 35px;
+      padding-top: 50px;
     }
-    .software {
-        padding-bottom: 100px;
+    .fields {
+      margin-top: 10px;
+      width: 350px;
+      height: 40px;
+      border-radius: 3px;
     }
-    .downloadResume {
-        padding-top: 100px;
-      }
-    #categoryGrid {
-        margin: 0px 5%;
-        grid-gap: 50px;
-        display: grid;
-        grid-template-rows: 400px 400px 400px 400px 400px;
-        grid-template-columns: 1fr;
-        grid-template-areas: 
-        "one"
-        "two"
-        "three"
-        "four"
-        "five"
-        "six"
-        ;
+    .message {
+      margin-top: 10px;
+      width: 350px;
+      height: 100px;
+      border-radius: 3px;
+    }
+    .submit {
+      margin-top: -5px;
+      width: 350px;
+      height: 60px;
+      background-color: black;
+      color: white;
+      padding: 17px;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      border-radius: 3px;
+      border-color: transparent;
+    }
+    .subjectField {
+      margin-top: 10px;
+      width: 350px;
+      height: 40px;
+      border-radius: 3px;
+    }
+    .nameEmail {
+      display: block;
+    }
+    .email {
+      margin-top: -30px;
     }
     .footerLinks {
-        margin: 50px auto;
-        width: 100%;
-          }
-    .footerLinks ul{
-        display: block;
-        justify-content: center;
+      margin: 50px auto;
+      width: 100vw;
     }
-    .footerLinks li {
-        padding: 15px;
-        text-align: center;
-      }
-
+    h1 {
+      text-align: center;
+      font-weight: 900;
+      font-size: 35px;
+  }
+  .btn {
+    width: 350px;
+  }
   }
