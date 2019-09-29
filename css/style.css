@@ -1,0 +1,319 @@
+body {
+    width: 100vw;
+    font-family: europa, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+}
+.background {
+  height: 600px;
+  background-image: url("../images/Allison-Krupp-Graphic-Designer.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+
+}
+nav {
+    width: 100%;
+    height: 15%;
+    margin: auto;
+    background-color: white;
+}
+.navbar-nav {
+    width: 100%;
+    margin-left:50px;
+    margin-right: 50px;
+    padding-top: 30px;
+}
+.navbar-left {
+    width: 400px;
+    display: flex;
+    margin-right: auto;
+}
+.navbar-right {
+    margin-left: auto;
+    text-align: right;
+    width: 200px;
+}
+.navbar-toggler {
+    margin-left: auto;
+    border: none;
+}
+button {
+    background-color: black;
+
+}
+.navbar-brand {
+    margin: auto;
+    font-size: 25px;
+    z-index: 10000;
+    font-weight: 900;
+    color: black;
+}
+.navbar-brand:hover {
+    background: linear-gradient(to bottom right, rgb(1, 1, 109), rgb(165, 1, 165));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.nav-item {
+    color: rgba(0, 0, 0, .6);
+}
+.nav-item:hover {
+    color: black;
+}
+.bigText {
+      padding-top: 250px;
+      padding-right: 50px;
+      width: 50%;
+      margin-left: auto;
+      color: white;
+      min-width: 250px;
+      max-width: 700px;
+  }
+h1 {
+      text-align: center;
+      font-weight: 900;
+  }
+h4 {
+  margin-top: -100px;
+  text-align: center;
+  font-weight: 900;
+  font-size: 40px;
+  background: linear-gradient(to bottom right, rgb(1, 1, 109), rgb(165, 1, 165));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+}
+
+
+/* First Block */
+
+.firstBlock {
+  background-image: linear-gradient(to bottom right, rgb(1, 1, 109), rgb(165, 1, 165));
+  background-position: top;
+  width: 100%;
+  height: 700px;
+  color: white;
+}
+.allContainers {
+  margin-left: 250px;
+  padding-top: 75px;
+}
+.firstContainer {
+  display: flex;
+}
+.secondContainer {
+  display: flex;
+  margin-top: 50px;
+}
+.container {
+}
+.list {
+  margin-left: -40px;
+}
+
+
+
+.secondBlock {
+    background-color: white;
+    width: 100vw;
+    height: 600px;
+    margin: auto;
+    color: black;
+  }
+  .thirdBlock {
+    background-image: linear-gradient(to bottom right, rgb(1, 1, 109), rgb(165, 1, 165));
+    background-position: top;
+    width: 100vw;
+    height: 600px;
+    margin: auto;
+    color: white;
+}
+  .downloadResume {
+    width: 100%;
+    height: 100%;
+    padding-top: 200px;
+    padding-bottom: auto;
+  }
+  .download {
+    margin-top: 150px;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+}
+.btn {
+    margin-top: -50px;
+    margin-bottom: 100px;
+    width: 300px;
+    height: 60px;
+    background: black;
+    color: white;
+    padding: 18px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+.btn:hover {
+  color: white;
+    background-color: rgb(49, 49, 49);
+}
+.downloadCopy {
+    padding-bottom: 75px;
+}
+.aboutMe {
+  margin: 150px auto;
+  width: 800px;
+}
+
+/* Case Studies */
+h2 {
+  font-size: 30px;
+  font-weight: 900;
+}
+.caseStudies {
+  margin-top: 100px;
+}
+  .heading {
+    height: 400px;
+    width: 100%;
+    margin: auto;
+    color: transparent;
+    text-align: center;
+    font-size: 25px;
+  }
+  .heading:hover {
+    background-image: linear-gradient(to bottom right, rgba(1, 1, 109, .8), rgba(165, 1, 165, .8));
+    color: white;
+    padding-top: 180px;
+    font-size: 25px;
+  }
+  #categoryGrid {
+    margin: 100px 5%;
+    grid-gap: 50px;
+    display: grid;
+    grid-template-rows: 400px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: 
+    "one two"
+    ;
+  }
+  #one {
+    grid-area: one;
+    background-image: url(../images/CIA-BW.gif);
+  }
+  #two {
+    grid-area: two;
+    background-image: url(../images/SOPO-BW.gif);
+  }
+  .categoryGridArea {
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    display: grid;
+    align-content: end;
+  }
+  .footerLinks {
+      margin: 100px auto;
+      width: 100vw;
+    }
+  .footerLinks ul{
+      display: flex;
+      justify-content: center;
+  }
+  .footerLinks li a {
+    cursor: pointer;
+    color: rgba(0, 0, 0, 0.500);
+    padding: 15px;
+    text-align: center;
+  }
+  .footerLinks li a:hover {
+      color: black;
+      text-decoration: none;
+  }
+  .footerLinks li:active {
+      color: black;
+      text-decoration: none;
+  }
+
+
+  @media only screen and (max-width:950px) {
+      body {
+        max-width: 100vw;
+      }
+    .navbar-brand {
+        margin-left: 0px;
+        font-size: 25px;
+        font-weight: 900;
+    }
+    .copy {
+        min-width: 350px;
+    }
+    h1 {
+        font-size: 35px;
+    }
+    .firstBlock {
+        height: 750px;
+        width: 100%;
+        margin: 0px;
+    }
+    .thirdBlock {
+        height: 400px;
+        width: 100%;
+        margin: 0px;
+    }
+    .container {
+        padding-right: auto;
+        display: block;
+    }
+    .list {
+        margin-top: 25px;
+        display: block;
+        min-width: 250px;
+    }
+    .experience {
+        padding-top: 100px;
+        padding-bottom: 50px;
+    }
+    .education {
+        padding-bottom: 100px;
+    }
+    .skills {
+        padding-top: 100px;
+        padding-bottom: 50px;
+    }
+    .secondBlock .leftList {
+        margin-bottom: -15px;
+    }
+    .software {
+        padding-bottom: 100px;
+    }
+    .downloadResume {
+        padding-top: 100px;
+      }
+    #categoryGrid {
+        margin: 0px 5%;
+        grid-gap: 50px;
+        display: grid;
+        grid-template-rows: 400px 400px 400px 400px 400px;
+        grid-template-columns: 1fr;
+        grid-template-areas: 
+        "one"
+        "two"
+        "three"
+        "four"
+        "five"
+        "six"
+        ;
+    }
+    .footerLinks {
+        margin: 50px auto;
+        width: 100%;
+          }
+    .footerLinks ul{
+        display: block;
+        justify-content: center;
+    }
+    .footerLinks li {
+        padding: 15px;
+        text-align: center;
+      }
+
+  }
