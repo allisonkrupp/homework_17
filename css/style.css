@@ -179,6 +179,10 @@ form {
   display: block;
   margin-right: 30px;
 }
+.contact {
+  padding-top: 50px;
+}
+
 /* Case Studies */
 h2 {
   font-size: 30px;
@@ -329,9 +333,6 @@ h2 {
       width: 100%;
       height: 750px;
       color: white;
-    }
-    .contact {
-      padding-top: 50px;
     }
     form {
       padding-left: 35px;
