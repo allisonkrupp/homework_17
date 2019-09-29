@@ -51,6 +51,7 @@ button {
 .navbar-brand:hover {
     background: linear-gradient(to bottom right, rgb(1, 1, 109), rgb(165, 1, 165));
     -webkit-background-clip: text;
+    background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 .nav-item {
@@ -79,6 +80,7 @@ h4 {
   font-size: 40px;
   background: linear-gradient(to bottom right, rgb(1, 1, 109), rgb(165, 1, 165));
     -webkit-background-clip: text;
+    background-clip: text;
     -webkit-text-fill-color: transparent; 
 }
 
@@ -102,10 +104,6 @@ h4 {
 .secondContainer {
   display: flex;
   margin-top: 50px;
-}
-.container {
-}
-.list {
 }
 
 
