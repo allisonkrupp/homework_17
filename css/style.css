@@ -302,7 +302,7 @@ background-image: linear-gradient(to bottom right, rgb(165, 1, 165), rgb(1, 1, 1
   }
 
 
-  @media only screen and (max-width:950px) {
+  @media only screen and (max-width:850px) {
     
     body {
       width: 100%;
